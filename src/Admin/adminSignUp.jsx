@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import bcrypt from "bcryptjs";
 
 const AdminSignUp = () => {
   const [form, setForm] = useState({
@@ -35,7 +34,7 @@ const AdminSignUp = () => {
       console.log("📦 Sending payload to backend:", payload);
 
       // Call backend API
-      const response = await fetch("http://localhost:5000/signup/admin", {
+      const response = await fetch("https://internship-backend-orpin.vercel.app/signup/admin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
