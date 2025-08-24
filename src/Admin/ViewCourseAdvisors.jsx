@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import AdminSidebar from "./Sidebar";
-import "./admin.css";
+import "./Admin.css";
 
 const ViewCourseAdvisor = () => {
   const [advisors, setAdvisors] = useState([]);

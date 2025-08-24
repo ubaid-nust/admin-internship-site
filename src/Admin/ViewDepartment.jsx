@@ -1,7 +1,7 @@
 // src/Admin/View_Department.jsx
 import React, { useState, useEffect } from 'react';
 import AdminSidebar from './Sidebar';
-import './admin.css';
+import './Admin.css';
 
 const ViewDepartment = () => {
   const [departments, setDepartments] = useState([]);

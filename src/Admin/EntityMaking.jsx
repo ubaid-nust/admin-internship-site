@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import AdminSidebar from "./Sidebar";
 import bcrypt from "bcryptjs";
-import "./admin.css";
+import "./Admin.css";
 
 const EntityMaking = () => {
   const [selectedEntity, setSelectedEntity] = useState("");
