@@ -34,7 +34,7 @@ const AdminSignUp = () => {
       console.log("📦 Sending payload to backend:", payload);
 
       // Call backend API
-      const response = await fetch("https://internship-backend-orpin.vercel.app/signup/admin", {
+      const response = await fetch("https://internship-backend-8w2cplgh5-ubaid-nusts-projects.vercel.app/signup/admin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
