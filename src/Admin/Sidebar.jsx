@@ -1,7 +1,7 @@
 // src/Admin/Sidebar.jsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './admin.css'; // Make sure to import your CSS file
+import './Admin.css'; // Make sure to import your CSS file
 
 const AdminSidebar = () => {
   return (
