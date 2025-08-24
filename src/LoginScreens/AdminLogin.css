@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box.admin-theme {
+  position: relative;
+  background-color: #ffffff;         /* Pane background */
+  border: 2px solid #4B2E2E;         /* Dark brown accent */
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.login-box-header {
+  position: relative;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.mcs-logo,
+.nust-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.mcs-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nust-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #4B2E2E;
+}
+
+.login-header p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 16px 0 6px;
+  font-weight: 600;
+  color: #4B2E2E;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.forgot-password {
+  text-align: right;
+  margin: 8px 0 16px;
+}
+
+.forgot-password a {
+  color: #4B2E2E;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  background-color: #001f4d;  /* Navy button */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Added spacing from above */
+}
+
+button:hover {
+  background-color: #3C2323; /* Darker brown on hover */
+}
+
+button:focus {
+  outline: none;
+}
